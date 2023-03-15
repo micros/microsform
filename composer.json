@@ -1,0 +1,19 @@
+{
+    "name": "micros/microsform",
+    "description": "Generador de formularios Test No usar en produccion",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Micros\\Microsform\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonardo Forero",
+            "email": "gerencia@micrositios.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
