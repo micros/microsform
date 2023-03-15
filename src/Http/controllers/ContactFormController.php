@@ -1,6 +1,6 @@
 <?php
 // MyVendor\Contactform\src\Http\Controllers\ContactFormController.php
-namespace Micros\Microsform;
+namespace micros\microsform\Http\controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
