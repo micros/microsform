@@ -8,12 +8,17 @@
             "Micros\\Microsform\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Leonardo Forero",
-            "email": "gerencia@micrositios.net"
-        }
-    ],
+    "authors": [{
+        "name": "Leonardo Forero",
+        "email": "gerencia@micrositios.net"
+    }],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Micros\\Microsform\\ContactFormServiceProvider"
+            ]
+        }
+    }
 }
